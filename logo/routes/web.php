@@ -14,3 +14,8 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::post('login', 'login@index');
+Route::get('connect_to_db', 'connect_to_db@index');
+Auth::routes();
+Route::get('/home', 'HomeController@index')->name('home');

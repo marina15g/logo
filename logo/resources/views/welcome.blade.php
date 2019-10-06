@@ -75,6 +75,9 @@
                         @if (Route::has('register'))
                             <a href="{{ route('register') }}">Register</a>
                         @endif
+
+                            <a href="test/connect_to_db.php">Connecy t</a>
+
                     @endauth
                 </div>
             @endif
