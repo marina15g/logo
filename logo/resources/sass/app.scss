@@ -1,1 +1,8 @@
-//
+$backgroundUrl:"https://source.unsplash.com/twukN12EN7c/1920x1080";
+    body {
+        background:url($backgroundUrl)  ; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+    }
